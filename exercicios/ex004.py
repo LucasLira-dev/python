@@ -1,0 +1,2 @@
+msg = input('Digite alguma coisa: ')
+print(f'{msg} é um número? {msg.isnumeric()}, {msg} é uma string ? {msg.isalpha()}, {msg} tem numero ou string? {msg.isalnum()}, {msg} está em maisculas? {msg.isupper()}, {msg} está em minúsculas? {msg.islower()}, {msg} é um espaço? {msg.isspace()},')
